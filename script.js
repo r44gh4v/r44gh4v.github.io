@@ -27,9 +27,9 @@ async function generateQuote() {
                     }]
                 }],
                 generationConfig: {
-                    temperature: 0.9,
+                    temperature: 1.9,
                     maxOutputTokens: 50,
-                    topK: 40,
+                    topK: 50,
                     topP: 0.95
                 }
             })
